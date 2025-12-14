@@ -1,0 +1,8 @@
+This API documentation describes a Vehicle Alert API.
+Base URL: https://example.com
+
+Endpoints:
+1. POST /vehicles/alert
+   - Purpose: Creates an alert for a vehicle.
+   - Body Parameters: voltage (float), engine_temp (float).
+   - Responses: 200, 400, 429, 500.

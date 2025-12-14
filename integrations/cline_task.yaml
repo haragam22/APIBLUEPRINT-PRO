@@ -1,0 +1,4 @@
+name: "Run APIBlueprint Pro Agent"
+description: "Executes the APIBlueprint Pro agent on the valid vehicle doc sample"
+commands:
+  - "python -m api_blueprint.cli agent --input samples/vehicle_doc.md --out generated/cline_run"

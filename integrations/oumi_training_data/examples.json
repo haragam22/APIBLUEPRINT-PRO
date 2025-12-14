@@ -1,0 +1,22 @@
+[
+    {
+        "text": "POST /users - Creates a user",
+        "label": "endpoint"
+    },
+    {
+        "text": "GET /users - Lists users",
+        "label": "endpoint"
+    },
+    {
+        "text": "Voltage: float",
+        "label": "parameter"
+    },
+    {
+        "text": "Returns 200 OK",
+        "label": "response"
+    },
+    {
+        "text": "Authentication required",
+        "label": "security"
+    }
+]

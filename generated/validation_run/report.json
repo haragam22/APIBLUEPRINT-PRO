@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "endpoints_processed": 1,
+  "repairs_applied": [
+    "/vehicles/alert: Added timestamp (ISO8601)",
+    "/vehicles/alert: Inferred vehicle_id from endpoint path"
+  ],
+  "confidence_scores": {
+    "/vehicles/alert": 0.7
+  },
+  "errors_detected": {
+    "/vehicles/alert": [
+      "429",
+      "500",
+      "400"
+    ]
+  },
+  "recommendations": [
+    "Review generated error classes in errors.py",
+    "Configure retry policy integration tests",
+    "Verify Kestra workflow template"
+  ]
+}

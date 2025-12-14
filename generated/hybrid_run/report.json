@@ -1,0 +1,79 @@
+{
+  "status": "success",
+  "endpoints_processed": 20,
+  "repairs_applied": [
+    "/pet/{petId}/uploadImage: Added timestamp (ISO8601)",
+    "/pet: Added timestamp (ISO8601)",
+    "/pet: Added timestamp (ISO8601)",
+    "/pet/findByStatus: Added timestamp (ISO8601)",
+    "/pet/findByTags: Added timestamp (ISO8601)",
+    "/pet/{petId}: Added timestamp (ISO8601)",
+    "/pet/{petId}: Added timestamp (ISO8601)",
+    "/pet/{petId}: Added timestamp (ISO8601)",
+    "/store/inventory: Added timestamp (ISO8601)",
+    "/store/order: Added timestamp (ISO8601)",
+    "/store/order/{orderId}: Added timestamp (ISO8601)",
+    "/store/order/{orderId}: Added timestamp (ISO8601)",
+    "/user/createWithList: Added timestamp (ISO8601)",
+    "/user/{username}: Added timestamp (ISO8601)",
+    "/user/{username}: Added timestamp (ISO8601)",
+    "/user/{username}: Added timestamp (ISO8601)",
+    "/user/login: Added timestamp (ISO8601)",
+    "/user/logout: Added timestamp (ISO8601)",
+    "/user/createWithArray: Added timestamp (ISO8601)",
+    "/user: Added timestamp (ISO8601)"
+  ],
+  "confidence_scores": {
+    "/pet/{petId}/uploadImage": 0.7,
+    "/pet": 0.7,
+    "/pet/findByStatus": 0.7,
+    "/pet/findByTags": 0.7,
+    "/pet/{petId}": 0.7,
+    "/store/inventory": 0.7,
+    "/store/order": 0.7,
+    "/store/order/{orderId}": 0.7,
+    "/user/createWithList": 0.7,
+    "/user/{username}": 0.7,
+    "/user/login": 0.7,
+    "/user/logout": 0.7,
+    "/user/createWithArray": 0.7,
+    "/user": 0.7
+  },
+  "errors_detected": {
+    "/pet/{petId}/uploadImage": [],
+    "/pet": [
+      "400"
+    ],
+    "/pet/findByStatus": [
+      "400"
+    ],
+    "/pet/findByTags": [
+      "400"
+    ],
+    "/pet/{petId}": [
+      "400"
+    ],
+    "/store/inventory": [],
+    "/store/order": [
+      "400"
+    ],
+    "/store/order/{orderId}": [
+      "400"
+    ],
+    "/user/createWithList": [],
+    "/user/{username}": [
+      "400"
+    ],
+    "/user/login": [
+      "400"
+    ],
+    "/user/logout": [],
+    "/user/createWithArray": [],
+    "/user": []
+  },
+  "recommendations": [
+    "Review generated error classes in errors.py",
+    "Configure retry policy integration tests",
+    "Verify Kestra workflow template"
+  ]
+}

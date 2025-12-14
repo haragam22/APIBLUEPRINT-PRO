@@ -1,0 +1,16 @@
+id: summarize-api-docs
+namespace: com.example.ai
+tasks:
+  - id: read_doc
+    type: io.kestra.plugin.core.storage.read
+    path: samples/vehicle_doc.md
+    
+  - id: summarize
+    type: io.kestra.plugin.gemini.GenerateContent
+    model: gemini-pro
+    prompt: "Summarize the following API documentation for extracting endpoints: {{ inputs.doc }}"
+    
+  - id: write_summary
+    type: io.kestra.plugin.core.storage.write
+    content: "{{ outputs.summarize.content }}"
+    path: samples/vehicle_summary.txt

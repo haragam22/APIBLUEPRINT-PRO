@@ -1,0 +1,6 @@
+# Oumi RLHF Checkpoint
+model_name: "api-extractor-v1"
+accuracy_before: 0.72
+accuracy_after: 0.89
+steps: 50
+loss: 0.12

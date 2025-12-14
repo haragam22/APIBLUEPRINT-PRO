@@ -1,0 +1,13 @@
+# Step 3.4: Kestra Template Generator
+id: api_blueprint_workflow
+namespace: com.example.api
+
+tasks:
+  - id: api_call
+    type: io.kestra.plugin.core.http.Request
+    uri: "https://example.com/api"
+    method: POST
+    retry:
+      type: constant
+      interval: PT1S
+      maxAttempt: 5
