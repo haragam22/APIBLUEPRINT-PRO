@@ -125,7 +125,7 @@ This separation avoids cloud execution limits while delivering a polished UX.
 ## 🎥 Demo Video
 
 👉 **YouTube Demo:**
-*(Link added after submission due to time constraints)*
+*https://youtu.be/Fy4M7q29VxI
 
 ---
 
